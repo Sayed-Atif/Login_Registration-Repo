@@ -1,0 +1,108 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* head, #tl{
+    color: aqua;
+} */
+
+#hd{
+    /* border: dotted purple 3px; */
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    margin: 50px;
+}
+
+#hd:hover{
+    border: dotted 5px;
+    background-color: palegreen;
+}
+
+
+ul,li{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: blue;
+    font-size: xx-large;
+}
+
+li:hover{
+
+    background-color: hotpink;
+    width: 20vh;
+    height: 2em;
+    font-style: italic;
+
+}
+
+.sec1{
+    position: relative;
+    border: solid orange 1px;
+    background-color: cadetblue;
+    width: 35vh;
+    height: 20vh;
+    padding: 5px;
+    margin: 20px;
+    top: 30px;
+}
+
+.sec2{
+    position: relative;
+    border: solid orange 1px;
+    background-color: cadetblue;
+    width: 40vh;
+    height: 25vh;
+    padding: 5px;
+    margin: 20px;
+    left: 75%;
+    bottom: 155px;
+}
+
+.sec3{
+    position: relative;
+    border: solid orange 1px;
+    background-color: cadetblue;
+    width: 45vh;
+    height: 65vh;
+    left: 38%;
+    bottom: 170px;
+    /* padding: 5px;
+    margin: 10px;
+    left: 80%;
+    bottom: 155px; */
+}
+
+
+#hd2, #em, #pw, #lg, #re{
+    padding: 5px;
+    margin: 5px;
+    color: blueviolet;
+}
+
+.hd3, .fn, .ln, .em, .sid, .con, .add, .dob, .m, .f, .tm, .sub, .sb{
+
+    padding: 5px;
+    margin: 5px;
+    color: blueviolet;
+}
+
+#lg, .sb{
+    margin: 5px;
+    padding: 10px;
+    width: 11vh;
+    /* width: 12vh;
+    height: 5vh; */
+    background-color: blue;
+}
+
+
+
+
+
+
+
